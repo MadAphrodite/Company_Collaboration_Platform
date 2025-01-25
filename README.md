@@ -1,6 +1,6 @@
 # Company Collaboration Platform
 The company decided to build an application, that will increase employee productivity and internal communication. They have more than 3000 employees distributed across different departments and offices.  
-The goal of the project is to make testing documentation for the company's collaboration platform, which will be used to organize how employees talk to each other and work together. Test cases will be created for both the existing and new features, which will then be used for functional testing.
+The goal of the project is to make testing documentation for the company's collaboration platform, which will be used to organize how employees talk to each other and work together. Test cases will be created for both the existing and new features, which will then be used for both functional and regression testing.
 
 ## The vision
 The company decided to build an application that will allow employees to:
@@ -42,9 +42,9 @@ The company decided to build an application that will allow employees to:
 
 ## My responsibilities and highlights during the project
 * Performing sprint coordinator duties (planning team meetings, dividing tasks between team members, submitting team assignments) for 2 sprints
-* Performing exploratory testing in Google Chrome on Windows and Android
+* Performing exploratory and use case testing
 * Writing test cases based on provided use cases and user guide in Confluence
-* Executing use case testing in Google Chrome on Windows and Android
+* Executing regression testing in Google Chrome on Windows and Android
 * Reporting work time and found bugs to Jira
 * Formatting and filling in the final report
 #### Highlights:
@@ -52,8 +52,19 @@ The company decided to build an application that will allow employees to:
 * Honed my communication and project management skills by being a sprint coordinator for 2 sprints.
 * To uphold the quality of our team’s work, I dedicated an additional 10 hours to correcting grammar and formatting issues of bug reports, test cases and final report.
 
+## Assignments
+1. Perform exploratory testing of existing functionalities
+2. Prepare test cases for existing functionalities
+3. Bonus: Prepare test cases in advance for the Events module
+4. Prepare test cases for newly developed functionalities
+5. Perform browser testing for new functionalities and report all found bugs to Jira
+6. Execute regression testing, clean the board and prepare the final testing report
 
-
+## Project outcomes
+* Test plan
+* Test cases
+* Bug reports
+* Final report
 
 
 
