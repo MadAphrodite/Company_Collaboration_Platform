@@ -1,6 +1,6 @@
 # Company Collaboration Platform
 The company decided to build an application, that will increase employee productivity and internal communication. They have more than 3000 employees distributed across different departments and offices.  
-The goal of the project is to make testing documentation for the company's collaboration platform, which will be used to organize how employees talk to each other and work together. Test cases will be created for both the existing and new features, which will then be used for both functional and regression testing.
+The goal of the project is to make testing documentation for the company's collaboration platform, which will be used to organize how employees talk to each other and work together. Test cases will be created for both the existing and new features, which will then be used for functional testing.
 
 ## The vision
 The company decided to build an application that will allow employees to:
@@ -39,4 +39,24 @@ The company decided to build an application that will allow employees to:
     * Possibility to see all user lists of the company
     * Possibility to join the user list
     * Possibility to organise a new public or private user list
+
+## My responsibilities and highlights during the project
+* Performing sprint coordinator duties (planning team meetings, dividing tasks between team members, submitting team assignments) for 2 sprints
+* Performing exploratory testing in Google Chrome on Windows and Android
+* Writing test cases based on provided use cases and user guide in Confluence
+* Executing use case testing in Google Chrome on Windows and Android
+* Reporting work time and found bugs to Jira
+* Formatting and filling in the final report
+#### Highlights:
+* During this project I learned how to create test cases based on provided use cases and user guide. As a result I generated 18 test cases.
+* Honed my communication and project management skills by being a sprint coordinator for 2 sprints.
+* I reported 20 out of 65 bugs in a team of 3.
+* To uphold the quality of our team’s work, I dedicated an additional 10 hours to correcting grammar and formatting issues of bug reports, test cases and final report.
+
+
+
+
+
+
+
 
