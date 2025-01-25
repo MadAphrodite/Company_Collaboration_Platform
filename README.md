@@ -50,7 +50,6 @@ The company decided to build an application that will allow employees to:
 #### Highlights:
 * During this project I learned how to create test cases based on provided use cases and user guide. As a result I generated 18 test cases.
 * Honed my communication and project management skills by being a sprint coordinator for 2 sprints.
-* I reported 20 out of 65 bugs in a team of 3.
 * To uphold the quality of our team’s work, I dedicated an additional 10 hours to correcting grammar and formatting issues of bug reports, test cases and final report.
 
 
