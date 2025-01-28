@@ -52,13 +52,6 @@ The company decided to build an application that will allow employees to:
 * Honed my communication and project management skills by being a sprint coordinator for 2 sprints.
 * To uphold the quality of our team’s work, I dedicated an additional 10 hours to correcting grammar and formatting issues of bug reports, test cases and final report.
 
-## Assignments
-1. Perform exploratory testing of existing functionalities
-2. Prepare test cases for existing functionalities
-3. Bonus: Prepare test cases in advance for the Events module
-4. Prepare test cases for newly developed functionalities
-5. Perform browser testing for new functionalities and report all found bugs to Jira
-6. Execute regression testing, clean the board and prepare the final testing report
 
 
 
