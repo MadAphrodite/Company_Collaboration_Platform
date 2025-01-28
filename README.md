@@ -60,12 +60,6 @@ The company decided to build an application that will allow employees to:
 5. Perform browser testing for new functionalities and report all found bugs to Jira
 6. Execute regression testing, clean the board and prepare the final testing report
 
-## Project outcomes
-* Test plan
-* Test cases
-* Bug reports
-* Final report
-
 
 
 
