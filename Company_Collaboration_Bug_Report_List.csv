@@ -1,0 +1,546 @@
+Issue Type,Issue key,Issue id,Summary,Reporter,Reporter Id,Priority,Status,Created,Updated,Description,Environment,Project key,Project name,Project type,Project lead,Project lead id,Project description,Creator,Creator Id
+Bug,T12CCP-414,29862,Events page - Unauthenticated user can access the Events page with the page URL.,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,Critical,To Do,10/Aug/24 12:46 AM,27/Sep/24 5:47 PM,"Unauthenticated user can access the Events page with the page URL. But should not be able to.
+
+Steps to reproduce:
+
+# Insert Events page URL to browser search bar. [https://apps.fliplet.com/cerebrum-hub-my-directory-v-4-0-3-fglxrqzz/events-rcro|https://apps.fliplet.com/cerebrum-hub-my-directory-v-4-0-3-fglxrqzz/events-rcro|smart-link] 
+# Click enter.","App version: 4.0.3
+
+OS: Windows 11 Home 23H2
+
+Browser: Google Chrome version 127.0.6533.89
+
+
+
+Application version: 4.0.3
+
+OS: Windows 10 Pro (22H2) build	19045.4651
+
+Browser: Mozilla Firefox 128.0.3 (64-bit)",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-413,29861,Home page - Unnecessary “Enable push notifications” modal window popup exists,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,Medium,To Do,10/Aug/24 12:29 AM,27/Sep/24 5:47 PM,"After user is logged in and directed to the Home page, “Enable push notifications” modal window is displayed. It is not required by the use case nor owner, therefore unnecessary functionality.
+
+Steps to reproduce:
+
+# Go to Login page [https://apps.fliplet.com/cerebrum-hub-my-directory-v-4-0-3-fglxrqzz/login-rcr9|https://apps.fliplet.com/cerebrum-hub-my-directory-v-4-0-3-fglxrqzz/login-rcr9|smart-link] 
+# Log in as user or admin
+# Observe there is a notification window displayed","App version: 4.0.3
+
+OS: Windows 11 Home 23H2
+
+Browser: Google Chrome version 127.0.6533.89",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-200,29561,Edit Profile - Pronoun options should have longer formats,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,Low,Done,22/Jul/24 10:30 PM,27/Sep/24 5:47 PM,"
+
+!pronouns.png|width=294,height=143,alt=""pronouns.png""!
+
+Pronoun options should have longer formats like: He/him/his, She/her/hers, They/their/theirs.
+
+*Steps to reproduce:*
+
+# Open app [https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|smart-link]
+# Log in as user(email: team4_user@email.com, pass: user)
+# Click on “Profile” button from the navigation bar
+# Scroll down to “Pronoun” section and observe how the pronouns have short formats: She/hers, He/his, They/theirs","Application version 1.0.3
+
+OS: Windows 11 Home 23H2
+
+Browser: Google Chrome 126.0.6478.183(64-bit)
+
+
+
+OS:
+
+Edition Windows 11 Pro
+Version 23H2
+OS build 22631.3880
+
+Browser:
+
+Mozilla Firefox 128.0 (64-bit)",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-199,29560,Edit Profile - “Notify me using” section should have checkboxes instead of radio buttons,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,High,Done,22/Jul/24 10:20 PM,27/Sep/24 5:47 PM,"
+
+!notifyme.png|width=128,height=85,alt=""notifyme.png""!
+
+Under “Notify me using” section there should be checkboxes instead of radio buttons.
+
+*Steps to reproduce:*
+
+# Open app [https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|smart-link]
+# Log in as user(email: [team4_user@email.com|mailto:team4_user@email.com], pass: user)
+# Click on “Profile” button from the navigation bar
+# Scroll down to “Notify me using” section and observe how there are radio buttons ","Application version 1.0.3
+
+OS: Windows 11 Home 23H2
+
+Browser: Google Chrome 126.0.6478.183(64-bit)
+
+
+
+OS:
+
+Edition Windows 11 Pro
+Version 23H2
+OS build 22631.3880
+
+Browser:
+
+Mozilla Firefox 128.0 (64-bit)",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-198,29559,"Profile preview - After saving User Profile, some information is not shown correctly in the Profile Preview page",Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,High,Done,22/Jul/24 10:07 PM,27/Sep/24 5:47 PM,"
+
+!rightinfo.png|width=229,height=212,alt=""rightinfo.png""!
+
+
+
+!wronginfo.png|width=464,height=379,alt=""wronginfo.png""!
+
+
+
+After saving User Profile, some information is not shown correctly in the Profile Preview page(e.g Prefix and First Name)
+
+*Steps to reproduce:*
+
+# Open app [https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|smart-link]
+# Log in as user(email: [team4_user@email.com|mailto:team4_user@email.com], pass: user)
+# Click on “Profile” button from the navigation bar
+# Observe the information inserted in the Prefix and First Name fields
+# Scroll down and click on “Save” button
+# Click on “Directory” button from the navigation bar
+# Find the user profile from the list by using filters - Click on Skills filter and from Skills list click on Marketing. Scroll down from the employees list and find profile Team 4 Hillger, click on it
+# Observe how the First Name and Prefix have different information than what was entered on the Edit Profile page","Application version 1.0.3
+
+OS: Windows 11 Home 23H2
+
+Browser: Google Chrome 126.0.6478.183(64-bit)
+
+
+
+OS:
+
+Edition Windows 11 Pro
+Version 23H2
+OS build 22631.3880
+
+Browser:
+
+Mozilla Firefox 128.0 (64-bit)",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-197,29558,Profile preview - Some information that is filled on Edit Profile page doesn't exist on the Profile Preview page,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,Critical,Test failed,22/Jul/24 9:03 PM,27/Sep/24 5:47 PM,"
+
+!Screen Recording 2024-07-22 212853.mp4|width=1254,height=1036,alt=""Screen Recording 2024-07-22 212853.mp4""!
+
+
+
+!Screen Recording 2024-07-22 211709.mp4|width=952,height=1100,alt=""Screen Recording 2024-07-22 211709.mp4""!
+
+
+
+Profile preview is missing some information that is added from the Edit profile page: Preferred name, State/Region, Skills, Accessibility needs, Dietary Restrictions, Open to opportunities and Learning.
+
+*Steps to reproduce:*
+
+# Open app [https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|smart-link]
+# Log in as user(email: team4_user@email.com, pass: user)
+# Click on “Profile” button from the navigation bar
+# Add some information to the following fields: Preferred name, State/Region, Skills, Accessibility needs, Dietary Restrictions, Open to opportunities and Learning
+# Click on “Save” button
+# Click on “Directory” button from the navigation bar
+# Find the user profile from the list by using filters - Click on Skills filter and from Skills list click on Marketing. Scroll down from the employees list and find profile Team 4 Hillger, click on it
+# When user profile preview is open observe how on every page(Contact, About, Private) there is no information to be found that was added from the Edit Profile page - Preferred name, State/Region, Skills, Accessibility needs, Dietary Restrictions, Open to opportunities and Learning","Application version 1.0.3
+
+OS: Windows 11 Home 23H2
+
+Browser: Google Chrome 126.0.6478.183(64-bit)
+
+
+
+OS:
+
+Edition Windows 11 Pro
+Version 23H2
+OS build 22631.3880
+
+Browser:
+
+Mozilla Firefox 128.0 (64-bit)",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-196,29557,"Profile preview - Additional information is shown, that is not available to add from Edit Profile page",Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,Critical,Test failed,22/Jul/24 8:45 PM,27/Sep/24 5:47 PM,"
+
+!image-20240722-174613.png|width=669,height=542,alt=""image-20240722-174613.png""!
+
+Shows additional information that can not be added from the Edit Profile page: Office, Time zone, Manager, Became partner, Summer associate, Start date, Industry, Employee/HR number, Former last name, Partner, Sex. 
+
+*Steps to reproduce:*
+
+# Open app [https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|smart-link]
+# Log in as user(email: [team4_user@email.com|mailto:team4_user@email.com], pass: user)
+# Click on Team 6 Admin profile
+# Observe how profile preview shows additional information e.g. Office, Time zone, Manager etc
+# Click on X button to close Profile preview
+# Click on “Profile” button from the navigation bar
+# Scroll down the Edit Profile page and observe how sections like Office, Time zone, Manager etc don’t exist","Application version 1.0.3
+
+OS: Windows 11 Home 23H2
+
+Browser: Google Chrome 126.0.6478.183(64-bit)
+
+
+
+OS:
+
+Edition Windows 11 Pro
+Version 23H2
+OS build 22631.3880
+
+Browser:
+
+Mozilla Firefox 128.0 (64-bit)",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-195,29556,Profile preview - Section “Marager“ has a typo in it,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,Low,Done,22/Jul/24 8:31 PM,27/Sep/24 5:47 PM,"
+
+!managertypo.png|width=502,height=407,alt=""managertypo.png""!
+
+
+
+Section “Marager“ should be “Manager“.
+
+*Steps to reproduce:*
+
+# Open app [https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|smart-link]
+# Log in as user(email: [team4_user@email.com|mailto:team4_user@email.com], pass: user)
+# Click on “Team 6 Admin” profile
+# When user profile preview is open observe how the manager section is written wrong - “Marager”","Application version 1.0.3
+
+OS: Windows 11 Home 23H2
+
+Browser: Google Chrome 126.0.6478.183(64-bit)
+
+
+
+OS:
+
+Edition Windows 11 Pro
+Version 23H2
+OS build 22631.3880
+
+Browser:
+
+Mozilla Firefox 128.0 (64-bit)",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-194,29555,Edit Profile - “Skills” section should have checkboxes instead of radio buttons,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,High,Done,22/Jul/24 8:22 PM,27/Sep/24 5:47 PM,"
+
+!skillsradiobuttons.png|width=285,height=347,alt=""skillsradiobuttons.png""!
+
+
+
+“Skills” section should have checkboxes instead of radio buttons.
+
+*Steps to reproduce:*
+
+# Open app [https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|smart-link]
+# Log in as user(email: [team4_user@email.com|mailto:team4_user@email.com], pass: user)
+# Click on “Profile” button from the navigation bar
+# Scroll down to “Skills” section and observe how there are radio buttons","Application version 1.0.3
+
+OS: Windows 11 Home 23H2
+
+Browser: Google Chrome 126.0.6478.183(64-bit)
+
+
+
+OS:
+
+Edition Windows 11 Pro
+Version 23H2
+OS build 22631.3880
+
+Browser:
+
+Mozilla Firefox 128.0 (64-bit)",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-191,29550,Admin Edit User - All the profile preview information is not available to edit,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,Critical,Test failed,22/Jul/24 6:51 PM,27/Sep/24 5:47 PM,"
+
+!edituseradmin.png|width=587,height=381,alt=""edituseradmin.png""!
+
+Logged in as administrator, you can not change all the information that is present in the employee's profile preview. Everything except email should be available to edit by administrator.
+
+*Steps to reproduce:*
+
+# Open app [https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|smart-link]
+# Log in as Administrator(email: team4_admin@ebay.com, pass: admin)
+# Click on any user profile
+# When user profile preview is open, scroll to the bottom
+# Find “Edit” button and click it
+# Observe how only partial information is available to edit ","Application version 1.0.3
+
+OS: Windows 11 Home 23H2
+
+Browser: Google Chrome 126.0.6478.183(64-bit)
+
+
+
+OS: Edition Windows 11 Pro
+Version 23H2
+OS build 22631.3880
+
+Browser: Mozilla Firefox 128.0 (64-bit)",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-190,29545,"Profile preview - Logged in as user, “Edit” button is shown on other profile previews.",Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,Critical,Done,22/Jul/24 6:23 PM,27/Sep/24 5:47 PM,"
+
+!usereditbutton.png|width=279,height=398,alt=""usereditbutton.png""!
+
+Logged in as user, “Edit” button is shown on other employees profile previews.
+
+*Steps to reproduce:*
+
+# Open app [https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|smart-link]
+# Log in as user(email: team4_user@email.com, pass: user)
+# Click on any user profile
+# When user profile preview is open, scroll to the bottom
+# Observe how there is an “Edit” button available","Application version 1.0.3
+
+OS: Windows 11 Home 23H2
+
+Browser: Google Chrome 126.0.6478.183(64-bit)
+
+
+
+OS:
+
+Edition Windows 11 Pro
+Version 23H2
+OS build 22631.3880
+
+Browser:
+
+Mozilla Firefox 128.0 (64-bit)",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-186,29541,TRASH**,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,High,Done,22/Jul/24 6:04 PM,10/Aug/24 12:31 AM,trash,Application version 1.0.3,T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-185,29540,"Directory - Under filtering, the “Expertise” tab has duplicates in it",Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,Medium,Test failed,22/Jul/24 5:55 PM,27/Sep/24 5:47 PM,"
+
+!expertiseduplicates.png|width=336,height=419,alt=""expertiseduplicates.png""!
+
+Under filtering, the “Expertise” tab has duplicates in it (e.g. “Adobe after Affects” and “Adobe After Affects”, “Adobe photoshop” and “Adobe Photoshop”,“miro” and “Miro”).
+
+*Steps to reproduce:*
+
+# Open app [https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|smart-link]
+# Log in as user(email: [team4_user@email.com|mailto:team4_user@email.com], pass: user)
+# Scroll down and click on “Expertise” tab from the Filter list
+# Observe the options, some are duplicated(mentioned above)","Application version 1.0.3
+
+OS: Windows 11 Home 23H2
+
+Browser: Google Chrome 126.0.6478.183(64-bit)
+
+
+
+OS:
+
+Edition Windows 11 Pro
+Version 23H2
+OS build 22631.3880
+
+Browser:
+
+Mozilla Firefox 128.0 (64-bit)",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-182,29537,"Directory - There is no ""+"" button to add new employees",Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,Critical,Done,22/Jul/24 5:41 PM,27/Sep/24 5:47 PM,"
+
+!noplusbutton.png|width=805,height=469,alt=""noplusbutton.png""!
+
+Logged in as administrator, there is no “+“ button on the Directory page to add new employees.
+
+*Steps to reproduce:*
+
+# Open app [https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|smart-link]
+# Log in as Administrator(email: team4_admin@ebay.com, pass: admin)
+# Observe how there is no “+“ button visible on the page","Application version 1.0.3
+
+OS: Windows 11 Home 23H2
+
+Browser: Google Chrome 126.0.6478.183(64-bit)
+
+
+
+OS:
+
+Edition Windows 11 Pro
+Version 23H2
+OS build 22631.3880
+
+Browser:
+
+Mozilla Firefox 128.0 (64-bit)",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-167,29519,Directory - There is no search bar to search other employees,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,Critical,Test failed,22/Jul/24 12:05 AM,27/Sep/24 5:47 PM,"
+
+!searchbar.png|width=569,height=365,alt=""searchbar.png""!
+
+
+
+There is no search bar to be able to search other employees.
+
+*Steps to reproduce:*
+
+# Open app [https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|smart-link]
+# Log in as user(email: team4_user@email.com, pass: user)
+# Observe how there is no Search bar above the “Filter by” section","Application version 1.0.3
+
+OS:
+
+Windows 11 Home 23H2
+
+Browser:
+
+Google Chrome 126.0.6478.183(64-bit)
+
+
+
+OS:
+
+Edition Windows 11 Pro
+Version 23H2
+OS build 22631.3880
+
+Browser:
+
+Mozilla Firefox 128.0 (64-bit)",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-166,29518,Edit Profile - Birthday has wrong date format,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,Medium,Test failed,21/Jul/24 11:54 PM,27/Sep/24 5:47 PM,"
+
+!birthdayformat.png|width=227,height=117,alt=""birthdayformat.png""!
+
+The Birthday field has wrong date format MM/DD/YYYY, but should be YYYY-MM-DD instead.
+
+*Steps to reproduce:*
+
+# Open app [https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|smart-link]
+# Log in as user(email: [team4_user@email.com|mailto:team4_user@email.com], pass: user)
+# Click on “Profile“ button from the navigation bar
+# Scroll the page and observe the Birthday section date format being MM/DD/YYYY","Application version 1.0.3
+
+OS: Windows 11 Home 23H2
+
+Browser: Google Chrome 126.0.6478.183(64-bit)
+
+
+
+OS:
+
+Edition Windows 11 Pro
+Version 23H2
+OS build 22631.3880
+
+Browser:
+
+Mozilla Firefox 128.0 (64-bit)",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-164,29516,"Edit Profile - ""Middle Name"" field is missing",Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,Medium,Done,21/Jul/24 11:44 PM,27/Sep/24 5:47 PM,"
+
+!middlename.png|width=305,height=170,alt=""middlename.png""!
+
+
+
+“Middle Name“ field does not exist on the page
+
+*Steps to reproduce:*
+
+# Open app [https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|smart-link]
+# Log in as user(email: [team4_user@email.com|mailto:team4_user@email.com], pass: user)
+# Click on “Profile“ button from the navigation bar
+# Scroll the page and observe how there is no Middle Name field between First Name and Last Name fields","Application version 1.0.3
+
+OS: Windows 11 Home 23H2
+
+Browser: Google Chrome 126.0.6478.183(64-bit)
+
+
+
+OS:
+
+Edition Windows 11 Pro
+Version 23H2
+OS build 22631.3880
+
+Browser:
+
+Mozilla Firefox 128.0 (64-bit)",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-160,29512,Edit Profile - Field typos,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,Low,Done,21/Jul/24 11:03 PM,27/Sep/24 5:47 PM,"
+
+!editprofile1.png|width=390,height=264,alt=""editprofile1.png""!
+
+
+
+!editprofile3.png|width=227,height=296,alt=""editprofile3.png""!
+
+
+
+!editprofile2.png|width=454,height=133,alt=""editprofile2.png""!
+
+
+
+Some field titles and descriptions have typos in them:
+
+# “Pfefix“ should be “Prefix“
+# “First name” should be “First Name”
+# CCS, Adobe photoshop, Adobe after Affects, miro should be CSS, Adobe Photoshop, Adobe After Effects, Miro
+# “Outline *resent* projects you have *ben* involved with and any keywords so colleagues can find you“ - should be “Outline *recent* projects you have *been* involved with and any keywords so colleagues can find you“
+
+*Steps to reproduce:*
+
+# Open app [https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|smart-link]
+# Log in as user(email: team4_user@email.com, pass: user)
+# Click on “Profile“ button from the navigation bar
+# Scroll the page and observe typos in the fields mentioned above","Application version 1.0.3
+
+OS: Windows 11 Home 23H2
+
+Browser: Google Chrome 126.0.6478.183(64-bit)
+
+
+
+OS:
+
+Edition Windows 11 Pro
+Version 23H2
+OS build 22631.3880
+
+Browser:
+
+Mozilla Firefox 128.0 (64-bit)",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-153,29505,User Login - User can access all the app pages and information without logging in,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,Critical,Test failed,21/Jul/24 8:55 PM,27/Sep/24 5:47 PM,"
+
+!Screen_Recording_20240721_203227_Chrome.mp4|width=1080,height=2112,alt=""Screen_Recording_20240721_203227_Chrome.mp4""!
+
+
+
+User has not logged in, though menu is shown and user can navigate and access Home, Directory and Profile pages. 
+
+*Steps to reproduce:*
+
+# Open app [https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|smart-link]
+# Click on “Home“ button from the navigation bar
+# Observe how user is directed to “Home“ page
+# Click on “Directory“ button from the navigation bar
+# Observe how user is directed to “Directory“ page and can see all the employees details
+# Click on “Profile“ button from the navigation bar
+# Observe how user is directed to “Profile“ page and can edit the page","Application version 1.0.3
+
+OS: Android 14, One UI 6.1
+
+Browser: Chrome version 126.0.6478.122
+
+Application version: 4.0.3
+
+OS: Windows 10 Pro (22H2) build 19045.4651
+
+Browser: Mozilla Firefox 128.0.3 (64-bit)",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
+Bug,T12CCP-150,29502,User Login - Login page is not accessible,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d,Critical,Test failed,21/Jul/24 8:17 PM,27/Sep/24 5:47 PM,"
+
+!Screen_Recording_20240721_200356_Google Play Store.mp4|width=1080,height=2084,alt=""Screen_Recording_20240721_200356_Google Play Store.mp4""!
+
+
+
+Instructions page “Installing the Directory app“ is shown instead of a Login page. If clicked on “Log out” button, then Login page shows for 0.3 seconds and then it shows instructions page again. If clicked on “Install Android app” button, user is directed to Google Play store home page, but no app shows up.
+
+*Steps to reproduce:*
+
+# Open app [https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|https://apps.fliplet.com/cerebrum-hub-my-directory-v-1-0-3-l-5-omof-01/login-rcnh|smart-link] 
+# Observe that it shows page “Installing the Directory app“
+# Refresh the page to observe it still shows “Installing the Directory app“ page
+# Click “Log out” button from the navigation bar below
+# Observe how “Login page” is visible for a second and then the “Installing the Directory app“ page remains
+# Click “Install Android app“ button
+# Observe as Google Play store opens, there is no app shown","Application version 1.0.3
+
+OS: Android 14, One UI 6.1
+
+Browser: Chrome version 126.0.6478.122",T12CCP,T12. Company Collaboration Platform,software,Cerebrum Hub,6202bc6d6ba61b006fb5463f,,Birgit Tikk,70121:251cca08-93e7-417a-82c2-0a142984426d
